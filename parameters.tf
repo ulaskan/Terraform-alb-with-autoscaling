@@ -17,6 +17,6 @@ variable "bastion_key" { default = "test-infra-bastion" }
 variable "bastion_instance" { default = "t2.micro" }
 
 ### Breakout IP: Please update
-variable "BastionIngressIp" { default = "62.30.90.124/32" }
+variable "BastionIngressIp" { default = "1.2.3.4/32" }
 
 variable "s3bucket" { default = "test-infra-bucket-3384826" }
